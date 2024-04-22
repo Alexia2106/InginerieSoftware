@@ -1,0 +1,44 @@
+			TEMA CURS 6
+		Prototype vs Minimum Viable Product
+			-Șerban Alexia-
+
+
+1.CARE E DIFERENTA DINTRE UN PROTOTIP, UN MVP SI UN PRODUS?
+-un prototip evaluează forma generală a ideii tale, de exemplu flow-ul sau interacțiunea cu user-ul, iar MVP-ul este o versiune de lucru finala a produsului, având principalele caracteristici care te lasă sa colectezi feedback-ul inițial si folositor al user-ului (prototipul testează ideea si MVP-ul testează produsul)
+-prototipurile sunt utilizate in stadiile initiale de dezvoltare pentru a testa idei si concepte, MVP-urile sunt lansate pe piata pentru a testa si valida ipotezele si pentru a aduna feedback, iar produsele finale sunt versiunile complet dezvoltate si finalizate, gata pentru lansarea pe scara larga
+
+2. DE CE SA LANSEZI UN MVP SI DE CE SA IL DAI OAMENILOR SA IL TESTEZE?
+-lansarea unui MVP permite echipei să valideze conceptul mai repede si să primească feedback din partea utilizatorilor 
+-testarea MVP-ului ajută la identificarea nevoilor și preferințelor utilizatorilor și la ajustarea produsului final
+-acest proces ajută la reducerea riscului de eșec
+
+3. CE URMEAZA DUPA UN MVP?
+După lansarea unui MVP și colectarea feedback-ului, echipele pot face ajustari și îmbunătățiri pentru a ajunge la un produs care să se potrivească cat mai bine nevoilor clienților
+
+4. CARE SUNT AVANTAJELE UNUI MVP?
+-îți permite sa începi un business cu resurse minime
+-te ajuta sa creezi produse finale mai bune
+-te ajuta sa eviți produsele finale care nu sunt bune
+-construiește relații cu clienții
+-deschide ușile unor finanțări
+
+5.PASII IN CONSTRUIREA UNUI MVP
+-analiza pieții
+-definirea ideii
+-crearea unei liste de caracteristici
+-construirea MVP-ului si lansarea acestuia
+-examinarea feedback-ului
+
+--------------------------------------------------------------------
+
+---AVANTAJE SI DEZAVANTAJE----
+
+DESIGNUL ESTE DE CALITATE SUPERIOARA
+Luăm exemplul unui smartphone de lux. Avantajul designului de calitate superioară este că acesta poate oferi o experiență estetică buna pentru utilizatori. Materialele premium, finisajele și atenția la detalii pot face ca acest telefon să se evidențieze în rândul concurenței și să atragă un număr foarte mare de clienți.
+Cu toate acestea, dezavantajul este ca, costurile implicate în proiectarea și producția acestui smartphone pot fi foarte ridicate, ceea ce duce la prețuri de vânzare semnificativ mai mari decât ale altor telefoane. Acest lucru poate limita accesibilitatea produsului pentru mulți consumatori și poate reduce potențialul de cumpărare.  
+
+
+DESIGNUL ESTE DE CALITATE MAI SLABA
+Un alt exemplu în care designul este de calitate mai slabă ar putea fi un prototip al unei interfețe utilizator pentru o aplicație web. Să presupunem că o echipă de dezvoltare creează un prototip simplu pentru a testa navigarea și funcționalitățile de bază ale aplicației.
+În acest prototip, interfața utilizatorului ar putea să fie minimală, fără detalii de design și elemente de feedback vizual, cum ar fi animațiile sau efectele de tranziție. De asemenea, ar putea să lipsească optimizările pentru diferite dispozitive și rezoluții de ecran, iar interacțiunea cu elementele interfeței utilizator ar putea fi rigidă și incompletă.
+În comparație cu aplicația finală, care ar avea un design rafinat, intuitiv și responsiv, prototipul ar fi considerat de calitate mai slabă.

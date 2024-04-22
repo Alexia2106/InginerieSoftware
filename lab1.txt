@@ -1,0 +1,74 @@
+• Ce este UML si pentru ce este utilizat?
+
+1.Este un limbaj de modelare generalizat standardizat in domeniul ingineriei software.  Acesta include un set de tehnici de notare grafica pentru a crea modele vizuale de sisteme intensive in software.
+2.UML permite prezentarea aspectelor variate ale unui sistem software (cerințele
+funcționale și nefuncționale, structurile de date, fluxurile de date și fluxurile de
+informații) într-un cadru unic, utilizând concepte orientate pe obiecte.
+
+• Ce sunt modelele si care este utilitatea lor?
+Modelele sunt reprezentări grafice ale sistemelor software. Acestea sunt utilizate pentru a vizualiza, comunica si intelege mai bine arhitectura, comportamentul si structura sistemelor. Modelele UML oferă o modalitate abstracta de a descrie diverse aspecte ale unui sistem software. Prin urmare, facem distincția între modelele descriptive și cele prescriptive. Modelele descriptive arată o parte a realității pentru a face un aspect mai usor de inteles. De exemplu, o hartă descrie un oraș într-un mod în care ajută o persoană care nu este localnica să găsească rute in oraș. Modelele prescriptive sunt utilizate pentru a oferi un manual de construcție pentru sistemul care urmează să fie dezvoltat.
+
+• Ce tipuri de diagrame sunt prezentate in [1] – Capitolul 2? Care sunt asemanarile si deosebirile intre acestea?
+• Caracterizati succint fiecare diagrama prezentata în [1] – Capitolul 2 (cele
+5 mentionate mai sus)
+
+Avem 2 categorii: Diagrame de structura și diagrame de comportament.
+
+Diagrame de Structură:
+1. Diagrama de Clase:
+-Descrie structurile de date și obiectele din sistem (clase, interfețe..)
+-Reprezintă relațiile dintre clase, cum ar fi generalizarea și asocierea.
+2. Diagrama de Obiecte:
+-Furnizează o imagine concretă a stării sistemului la un moment specific de execuție.
+-Arată instanțele (obiectele) și relațiile lor.
+3. Diagrama de Pachete:
+-Grupează diagramele sau modelele care au proprietăți comune.
+-Exemplu de utilizare: într-un sistem de administrare universitar.
+4. Diagrama de Componente:
+-Se concentrează pe dezvoltarea software orientată pe componente.
+-Reprezintă unități independente, executabile și interacțiunile acestora.
+5. Diagrama structurii compoziției:
+-Permite o descompunere ierarhică a părților sistemului.
+-Descrie detaliile structurii interne ale claselor sau componentelor.
+-Putem utiliza o structură de compoziție pentru a descrie structura internă a claselor sau componentelor detaliat.
+6. Diagrama de implementare:
+-Reprezintă topologia hardware și asignările sistemului în timpul execuției.
+-Arată unități de procesare sub formă de noduri și relațiile de comunicare între noduri.
+7. Diagrama de Profil:
+-Extinde UML pentru a introduce concepte specifice unui domeniu.
+-Folosește profile pentru a introduce concepte, cum ar fi Java Enterprise Beans.
+
+Diagrame de Comportament:
+1. Diagrama de Cazuri de Utilizare:
+-Permite definirea cerințelor pe care un sistem trebuie să le îndeplinească.
+-Descrie ce utilizatori utilizează diferite funcționalități ale sistemului, fără a aborda detalii specifice de implementare.
+2. Diagrama de Mașină de Stări:
+-Descrie ciclul de viață al obiectelor, inclusiv stări diferite și tranziții.
+3. Diagrama de Activitate:
+-Modelează procese de orice fel, inclusiv procese de business și software.
+-Arată acțiuni și mecanisme de coordonare în cadrul unei activități.
+4. Diagrama de Secvență:
+-Descrie interacțiunile dintre obiecte în ordine cronologică.
+-Se concentrează pe mesajele dintre obiecte și pe ordinea lor cronologică.
+5. Diagrama de Comunicare:
+-Descrie relațiile de comunicare între diferite obiecte și este similară cu diagrama de secvență. 
+-Se concentrează pe relațiile de comunicare, nu pe ordinea cronologică a schimbului de mesaje.
+6. Diagrama de Temporizare:
+-Arată explicit schimbările de stare ale partenerilor de interacțiune cauzate de evenimente de timp sau de schimbul de mesaje.
+7. Diagrama de Suprapunere a Interacțiunii: (The Interaction Overview Diagram)
+-Modelează conexiunile dintre diferite procese de interacțiune, stabilind diagrame de interacțiune individuale într-o secvență.
+-Specifică condițiile în care procesele de interacțiune au permisiunea să aibă loc.
+
+ASEMANARI:
+-Diagrama de Clase și Diagrama de Obiecte:
+Ambele tipuri se concentrează pe obiecte și relațiile dintre ele.
+-Diagrama de Pachete și Diagrama de Componente:
+Ambele grupeaza diagramele sau modelele pe baza proprietăților comune.
+-Diagrama de comunicare și Diagrama de secvență:
+Descriu relațiile de comunicare între diferite obiecte.
+
+DEOSEBIRI:
+-Diagrama de Profil extinde UML pentru a introduce concepte specifice unui domeniu, iar Diagrama de Obiecte arată instanțele (obiectele) și relațiile lor.
+-Diagrama de Cazuri de Utilizare permite definirea cerințelor pe care un sistem trebuie să le îndeplinească, iar Diagrama de Secvență descrie interacțiunile dintre obiecte în ordine cronologică.
+
+
