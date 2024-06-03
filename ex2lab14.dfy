@@ -25,38 +25,44 @@ if x < -60 then x else H(x - 1)
 
 
 
+/*(d) 
+Functia scade fie x, fie y la fiecare apel recursiv, asigurand terminarea deoarece x si y sunt nr nat
+*/
 function I(x: nat , y: nat ): int {
-if x == 0 || y == 0 then 12
-else if x % 2 == y % 2 then
-I(x - 1, y)
-else
-I(x, y - 1)}
-/* */
+ if x == 0 || y == 0 then 12
+ else if x % 2 == y % 2 then
+ I(x - 1, y)
+ else
+ I(x, y - 1) 
+ }
 
-
-
- function J(x: nat , y: nat ): int {
+/*(e) me
+Functia scade fie x, fie y la fiecare apel recursiv, asigurand terminarea deoarece x si y sunt nr nat
+function J(x: nat , y: nat ): int {
  if x == 0 then y
  else if y == 0 then
  J(x - 1, 3)
  else
-J(x, y - 1)
- }
-/* */
-
-
-function K(x: nat , y: nat , z: nat ): int {
-if x < 10 || y < 5 then x + y
-else if z == 0 then
-K(x - 1, y, 5)
-else
-K(x, y - 1, z - 1)
+ J(x, y - 1)
 }
-/* */
 
+/*(f) merge
+Functia scade x, y sau z la fiecare apel recursiv, asigurand terminarea deoarece sunt numere naturale.
+*/
+function K(x: nat , y: nat , z: nat ): int {
+ if x < 10 || y < 5 then x + y
+ else if z == 0 then
+ K(x - 1, y, 5)
+ else
+ K(x, y - 1, z - 1)
+}
 
+/*(g) nu merge
+Adaugarea scaderilor 100 - x ajuta verificatorul sa inteleaga ca functia se va incheia, deoarece 100 - x scade strict cu fiecare apel.
+ */
+ 
 function L(x: int ): int 
+decreases 100 - x
 {
  if x < 100 then L(x + 1) + 10 else x
- }
- /* */
+}
